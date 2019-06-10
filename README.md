@@ -1,4 +1,15 @@
 # AI labs Region Västerbotten
+## Run in cloud
+This is by far the simplest solution if you just want to run the laborations and get started with Artifical Neural Networks. 
+ 
+There are a lot of existing cloud solutions to host jupyter notebooks. We have tested two that works very well. 
+
+### Colabs
+Click [Colabs](https://colab.research.google.com/) then press the github tab and search for RegionVasterbotten  of the labs username click search. Then press one of the notebooks listed below.
+
+### Binder
+Click [Colabs](https://mybinder.org/) then copy and paste the link to this git repository into the textbox and click launch. It will load and install a lot of dependencies so wait a few minutes.
+
 
 ## Installation of python enviroment
 One of the following ways can be used to get the enviroment up and running:
@@ -115,15 +126,3 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 
 Then follow the installation instructions for windows but start wach line with sudo
-
-### If everythin fails
-A Binder-compatible repo with a `requirements.txt` file.
-
-Access this Binder at the following URL 
-
-https://mybinder.org/v2/gh/simjoh/BinderBase.git/master
-
-
-## Credits
-This project is created with:  
-[![Binder](http://mybinder.org/badge_logo.svg)](http://beta.mybinder.org/v2/gh/binder-examples/requirements/master)
